@@ -1,13 +1,13 @@
 package application;
 
+import boardgame.Position;
+
 public class Program {
 
 	public static void main(String[] args) {
-		System.out.println("Hello world!");
+		Position pos = new Position(2,3);
 		
-		for(int i = 0;i<10;i++) {
-			System.out.println("Hello World!");
-		}
+		System.out.println(pos);
 
 	}
 
